@@ -1,1 +1,2 @@
 
+The page was developed before I started using git. The page contains a header with an adaptive menu, a content section with text, and a footer with an adaptive feedback form. For development, I attached the gulp folder. For use - CSS, js, img, and index folders.html
