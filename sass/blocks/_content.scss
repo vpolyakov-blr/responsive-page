@@ -1,0 +1,40 @@
+.content{
+    background-color: #c8c8c8;
+    padding: 25px 0;
+    overflow: hidden;
+    &__name{
+        font-size: 40px;
+        text-align: center;
+    }
+    &__text{
+        margin-top: 25px;
+    }
+    &__rot{
+        transition: all .5s linear;
+        &.active{
+            transform: rotate(10deg);
+            z-index: -1;
+        }
+    }
+    
+}
+@media screen and (max-width: 590px) {
+    .content__rot.active{
+        transform: rotate(7deg);
+    }
+}
+@media screen and (max-width: 470px) {
+    .content__rot.active{
+        transform: rotate(5deg);
+    }
+}
+@media screen and (max-width: 380px) {
+    .content__rot.active{
+        transform: rotate(3deg);
+    }
+}
+@media screen and (max-width: 300px) {
+    .content__rot.active{
+        transform: rotate(2deg);
+    }
+}

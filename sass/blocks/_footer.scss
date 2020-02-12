@@ -1,0 +1,11 @@
+.footer{
+    background: url(../img/footer-bg.jpg) center (center / cover) no-repeat;
+    padding: 15px 0;
+    position: relative;
+    //overflow: hidden;
+    &__copy{
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+}

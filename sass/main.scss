@@ -1,0 +1,51 @@
+*:hover,
+*:after,
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 18px;
+	color: black;
+	line-height: 27px;
+	font-family: 'Roboto', sans-serif;
+	//position: relative;
+}
+
+.lock{
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.container{
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+@import 'base/mixins';
+@import 'base/variables';
+@import 'blocks/header';
+@import 'blocks/content';
+@import 'blocks/question';
+@import 'blocks/footer';
